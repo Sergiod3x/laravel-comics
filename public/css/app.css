@@ -1,0 +1,47 @@
+header .logo {
+  width: 1920px;
+  height: 400px;
+}
+header .logo img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 50% top;
+     object-position: 50% top;
+}
+
+footer .logo {
+  width: 1920px;
+  height: 400px;
+}
+footer .logo img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 50% top;
+     object-position: 50% top;
+}
+
+.comics {
+  width: 1920px;
+  height: 700px;
+  background-color: black;
+  color: blue;
+}
+
+.nav {
+  display: flex;
+  width: 1920px;
+  height: 60px;
+  background-color: cornflowerblue;
+}
+.nav .but {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 60px;
+  border: 1px solid #706c88;
+  width: 100%;
+  height: auto;
+}
