@@ -13,7 +13,7 @@
         @include('templates.header')
     </header>
         @include('templates.cor')
-        @include('templates.navigation')
+        @include('templates.navigation_bot')
     <footer>
         @include('templates.footer')
     </footer>

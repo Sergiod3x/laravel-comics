@@ -2,13 +2,12 @@
 
 @section('title','Comic')
 
-@section('content')
+@section('main')
 
 test
 <br> 
 <a href="{{route ('fumetto')}}"> COMIC</a>
-    Prodotti
-    cddwe
+   @dump($fumetti);
 
     
 @endsection

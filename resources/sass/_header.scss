@@ -1,12 +1,7 @@
-header{
-   .logo{
-       width: 1920px;
-       height: 400px;
-       img{
-           width: 100%;
-           height: 100%;
-        object-fit:cover;
-        object-position: 50% top;
-       }
-   }
+.row{
+    display: flex;
+
+    .lnk{
+        text-decoration: none;
+    }
 }
