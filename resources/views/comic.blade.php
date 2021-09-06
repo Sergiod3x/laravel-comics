@@ -15,6 +15,16 @@
             </div>
     </div>
 
+    <div class='container'>
+        <div class='row'>
+            <div class='col-5'>
+             {{ $fumetti[$id]['description']}}
+            </div>
+        </div>
+    </div>
+
+
+
 
 
     <!-- <div class='fumetto'>
