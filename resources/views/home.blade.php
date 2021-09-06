@@ -8,10 +8,12 @@
         <div class='row'>
             @foreach($fumetti as $fumetto)
                 <div class="col-2">
-                    <div class='fumetto'>
-                        <img src=" {{ $fumetto['thumb']}}" alt="logo">
-                       <h7>{{ $fumetto["title"]}} </h7> 
-                    </div>
+                    <a href="/fumetto/{{$loop->iteration}}">
+                        <div class='fumetto'>
+                            <img src=" {{ $fumetto['thumb']}}" alt="logo">
+                        <h7>{{ $fumetto["title"]}} </h7> 
+                        </div>
+                    </a>
                 </div>
             @endforeach
         </div>
