@@ -2,9 +2,8 @@
 
 @section('title','HomePage')
 
-@section('content')
-    Prodotti
+@section('main')
+<a href="/"> HOME</a>
 @endsection
 
 
-<a href="/"> HOME</a>

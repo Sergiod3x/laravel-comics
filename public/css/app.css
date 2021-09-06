@@ -10002,6 +10002,23 @@ h3 {
     border-color: #dee2e6;
   }
 }
+.comics {
+  width: 1920px;
+  background-color: #1c1c1c;
+  color: white;
+}
+.comics .container .row {
+  padding-top: 35px;
+}
+.comics .container .row .fumetto {
+  width: 80%;
+  height: auto;
+}
+.comics .container .row .fumetto img {
+  width: 100%;
+  height: auto;
+}
+
 .row {
   display: flex;
 }
@@ -10023,7 +10040,8 @@ footer .logo img {
 }
 
 .jumbo {
-  width: 1920px;
+  background-image: url(/images/jumbotron.jpg);
+  background-repeat: no-repeat;
   height: 400px;
 }
 .jumbo img {
@@ -10035,14 +10053,8 @@ footer .logo img {
      object-position: 50% top;
 }
 
-.comics {
-  width: 1920px;
-  height: 700px;
-  background-color: black;
-  color: blue;
-}
-
 .nav {
+  width: 1920px;
   height: 60px;
   background-color: #0282f9;
 }
