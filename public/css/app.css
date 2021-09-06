@@ -10064,3 +10064,9 @@ footer .logo img {
   align-items: center;
   justify-content: center;
 }
+
+.blue_band {
+  width: 1920px;
+  height: 30px;
+  background-color: #0282f9;
+}

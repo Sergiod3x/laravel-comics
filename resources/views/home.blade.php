@@ -8,7 +8,8 @@
         <div class='row'>
             @foreach($fumetti as $fumetto)
                 <div class="col-2">
-                    <a href="/fumetto/{{$loop->iteration}}">
+                    <!-- <a href="/comic/{{$loop->iteration}}"> -->
+                    <a href="{{route('comic', ['id'=>$loop->iteration])}}">
                         <div class='fumetto'>
                             <img src=" {{ $fumetto['thumb']}}" alt="logo">
                         <h7>{{ $fumetto["title"]}} </h7> 
@@ -20,7 +21,7 @@
     </div>
 </div>
 
-<!-- <a href="{{route ('fumetto')}}"> COMIC</a> -->
+
 
     
 @endsection

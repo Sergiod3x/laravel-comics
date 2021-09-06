@@ -20,6 +20,12 @@ Route::get('/', function () {
     ]);
 })->name('homepage ');
 
-Route::get('/comic', function () {
-    return view('comic');
-})->name('fumetto');
+Route::get('/comic/{id}', function ($id) {
+    //decremento l'id di uno per "sincronizarlo" con l'indice 
+    $id -=1;
+    $comics = config('comics');
+    return view('comic', [
+        "id"=>$id,
+        'fumetti'=>$comics
+    ]);
+})->name('comic');
